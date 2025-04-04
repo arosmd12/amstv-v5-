@@ -360,8 +360,8 @@ https://pizztv.qtv.web.id/cdn-vision/play.mpd?id=113
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 #https://cdnjkt4.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6e825832393/manifest.m3u8
 
-#EXTINF:-1 group-title="TV NASIONAL" tvg-id="TRANS TV" tvg-logo="http://amstv.shop/icon/transtv.png",TRANSTV D
-#EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Linux; Android 9; CPH2083 Build\/PPR1.180610.011) AppleWebKit\/537.36 OTT Navigator/1.7.1.2 (Linux;Android 31; en; ZUPAMNZVUB) ExoPlayerLib/2.15.1
+#EXTINF:-1 group-title="TV NASIONAL" tvg-id="TRANS TV" tvg-logo="http://amstv.shop/icon/transtv.png",TRANSTV Dg
+#EXTVLCOPT:http-user-agent=OTT Navigator/1.7.1.2 (Linux;Android 31; ) ExoPlayerLib/2.15.1
 https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
 
 #EXTINF:-1 group-title="TV NASIONAL" tvg-id="TRANS TV" tvg-logo="http://amstv.shop/icon/transtv.png",TRANS TV (v)
@@ -371,7 +371,7 @@ https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
 https://dsgtq5sngxkde.cloudfront.net/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
 
 
-#EXTINF:-1 group-title="TV NASIONAL" tvg-id="TRANS 7" tvg-logo="http://amstv.shop/icon/trans7.png",TRANS7 D
+#EXTINF:-1 group-title="TV NASIONAL" tvg-id="TRANS 7" tvg-logo="http://amstv.shop/icon/trans7.png",TRANS7 Dg
 #EXTVLCOPT:http-referrer=https://qtv.web.id
 https://pizztv.qtv.web.id/cdn-daily/play.m3u8?id=x8qckyq
 
