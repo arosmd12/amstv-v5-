@@ -184,59 +184,66 @@ text/x-generic free_tv_5_0_htdd7u.php ( HTML document, UTF-8 Unicode text, with 
 #EXTVLCOPT-http-reconnect=true
 =====================================================================
 
-#EXTINF:-1 tvg-id="" tvg-name="TRANS 7" tvg-logo="https://play-gachor.my.id/logo/htv2/TV NASIONAL DIGITAL/transtv.png" group-title="TV NASIONAL DIGITAL",TRANS 7
+#EXTINF:-1 tvg-id="" tvg-name="ANTV" tvg-logo="http://amstv.shop/icon/antv.png" group-title="TV NASIONAL DIGITAL",ANTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/1
+http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/16
 
-#EXTINF:-1 tvg-id="" tvg-name="TRANS TV" tvg-logo="https://play-gachor.my.id/logo/htv2/TV NASIONAL DIGITAL/trans7.png" group-title="TV NASIONAL DIGITAL",TRANS TV
+
+#EXTINF:-1 tvg-id="" tvg-name="BTV" tvg-logo="http://amstv.shop/icon/btv.png" group-title="TV NASIONAL DIGITAL",BTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/2
+http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/21
 
 #EXTINF:-1 tvg-id="" tvg-name="INDOSIAR " tvg-logo="https://cdnjktbpid01.transvision.co.id/image/web/channel/4028c68574537fcd0174be4f342858e9/295eb53a7aa04fbca2eeb58a3fab1f2f.png" group-title="TV NASIONAL DIGITAL",INDOSIAR 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/3
 
-#EXTINF:-1 tvg-id="" tvg-name="SCTV" tvg-logo="https://play-gachor.my.id/logo/htv2/TV NASIONAL DIGITAL/sctv.png" group-title="TV NASIONAL DIGITAL",SCTV
+#EXTINF:-1 tvg-id="" tvg-name="KOMPAS TV" tvg-logo="http://amstv.shop/icon/kompas.png" group-title="TV NASIONAL DIGITAL",KOMPAS TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/12
+
+#EXTINF:-1 tvg-id="" tvg-name="SCTV" tvg-logo="http://amstv.shop/icon/sctv.png" group-title="TV NASIONAL DIGITAL",SCTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/4
 
-#EXTINF:-1 tvg-id="" tvg-name="RCTI" tvg-logo="" group-title="TV NASIONAL DIGITAL",RCTI
+#EXTINF:-1 tvg-id="" tvg-name="RCTI" tvg-logo="http://amstv.shop/icon/RCTI.png" group-title="TV NASIONAL DIGITAL",RCTI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/5
 
-#EXTINF:-1 tvg-id="" tvg-name="GTV" tvg-logo="" group-title="TV NASIONAL DIGITAL",GTV
+#EXTINF:-1 tvg-id="" tvg-name="GTV" tvg-logo="http://amstv.shop/icon/gtv.png" group-title="TV NASIONAL DIGITAL",GTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/6
 
-#EXTINF:-1 tvg-id="" tvg-name="MNCTV" tvg-logo="" group-title="TV NASIONAL DIGITAL",MNCTV
+#EXTINF:-1 tvg-id="" tvg-name="MENTARI TV" tvg-logo="http://amstv.shop/icon/mentaritv.png" group-title="TV NASIONAL DIGITAL",MENTARI TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/9
+
+
+#EXTINF:-1 tvg-id="" tvg-name="MNCTV" tvg-logo="http://amstv.shop/icon/mnc.png" group-title="TV NASIONAL DIGITAL",MNCTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/7
 
-#EXTINF:-1 tvg-id="" tvg-name="iNews" tvg-logo="" group-title="TV NASIONAL DIGITAL",iNews
+#EXTINF:-1 tvg-id="" tvg-name="iNews" tvg-logo="http://amstv.shop/icon/inews.png" group-title="TV NASIONAL DIGITAL",iNews
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/8
 
-#EXTINF:-1 tvg-id="" tvg-name="MENTARI TV" tvg-logo="" group-title="TV NASIONAL DIGITAL",MENTARI TV
+
+
+#EXTINF:-1 tvg-id="" tvg-name="RTV" tvg-logo="http://amstv.shop/icon/rtv.png" group-title="TV NASIONAL DIGITAL",RTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/9
+http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/11
 
 #EXTINF:-1 tvg-id="" tvg-name="VTV" tvg-logo="" group-title="TV NASIONAL DIGITAL",VTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/10
 
-#EXTINF:-1 tvg-id="" tvg-name="RTV" tvg-logo="" group-title="TV NASIONAL DIGITAL",RTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/11
 
-#EXTINF:-1 tvg-id="" tvg-name="KOMPAS TV" tvg-logo="" group-title="TV NASIONAL DIGITAL",KOMPAS TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/12
+
 
 #EXTINF:-1 tvg-id="" tvg-name="METRO TV" tvg-logo="" group-title="TV NASIONAL DIGITAL",METRO TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/13
 
-#EXTINF:-1 tvg-id="" tvg-name="Net TV" tvg-logo="" group-title="TV NASIONAL DIGITAL",Net TV
+#EXTINF:-1 tvg-id="" tvg-name="Net TV" tvg-logo="http://amstv.shop/icon/nettv.png" group-title="TV NASIONAL DIGITAL",Net TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/14
 
@@ -244,11 +251,9 @@ http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/14
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/15
 
-#EXTINF:-1 tvg-id="" tvg-name="ANTV" tvg-logo="" group-title="TV NASIONAL DIGITAL",ANTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/16
 
-#EXTINF:-1 tvg-id="" tvg-name="TV ONE" tvg-logo="" group-title="TV NASIONAL DIGITAL",TV ONE
+
+#EXTINF:-1 tvg-id="" tvg-name="TV ONE" tvg-logo="http://amstv.shop/icon/tvone.png" group-title="TV NASIONAL DIGITAL",TV ONE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/17
 
@@ -260,10 +265,15 @@ http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/18
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/20
 
-#EXTINF:-1 tvg-id="" tvg-name="BTV" tvg-logo="" group-title="TV NASIONAL DIGITAL",BTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/21
 
+
+#EXTINF:-1 tvg-id="" tvg-name="TRANS 7" tvg-logo="http://amstv.shop/icon/trans7.png" group-title="TV NASIONAL DIGITAL",TRANS 7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/1
+
+#EXTINF:-1 tvg-id="" tvg-name="TRANS TV" tvg-logo="http://amstv.shop/icon/transtv.png" group-title="TV NASIONAL DIGITAL",TRANS TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/2
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 ====================================================================//===========================
