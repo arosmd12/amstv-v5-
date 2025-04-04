@@ -348,16 +348,19 @@ https://dsgtq5sngxkde.cloudfront.net/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://kametv.my.id/sc/rctiplus.m3u8?id=rcti
 
-#EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI" tvg-logo="http://amstv.shop/icon/RCTI.png" group-title="TV NASIONAL",RCTI (+)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/5
+#EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI" tvg-logo="http://amstv.shop/icon/RCTI.png" group-title="TV NASIONAL",RCTI Live
+#EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Linux; Android 9; CPH2083 Build\/PPR1.180610.011) AppleWebKit\/537.36 OTT Navigator/1.7.1.2 (Linux;Android 31; en; ZUPAMNZVUB) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+##com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=http://script.newfamilytv.my.id/sc/vision/drm.php?id=113
+https://pizztv.qtv.web.id/cdn-vision/play.mpd?id=113
 
 #EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI" tvg-logo="http://amstv.shop/icon/RCTI.png" group-title="TV NASIONAL",RCTI (c)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 #https://cdnjkt4.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6e825832393/manifest.m3u8
 
-#EXTINF:-1 group-title="TV NASIONAL" tvg-id="TRANS TV" tvg-logo="http://amstv.shop/icon/transtv.png",TRANS TV
+#EXTINF:-1 group-title="TV NASIONAL" tvg-id="TRANS TV" tvg-logo="http://amstv.shop/icon/transtv.png",TRANSTV D
 #EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Linux; Android 9; CPH2083 Build\/PPR1.180610.011) AppleWebKit\/537.36 OTT Navigator/1.7.1.2 (Linux;Android 31; en; ZUPAMNZVUB) ExoPlayerLib/2.15.1
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/2
 
@@ -368,7 +371,7 @@ http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/2
 https://dsgtq5sngxkde.cloudfront.net/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
 
 
-#EXTINF:-1 group-title="TV NASIONAL" tvg-id="TRANS 7" tvg-logo="http://amstv.shop/icon/trans7.png",TRANS 7
+#EXTINF:-1 group-title="TV NASIONAL" tvg-id="TRANS 7" tvg-logo="http://amstv.shop/icon/trans7.png",TRANS7 D
 #EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Linux; Android 9; CPH2083 Build\/PPR1.180610.011) AppleWebKit\/537.36 OTT Navigator/1.7.1.2 (Linux;Android 31; en; ZUPAMNZVUB) ExoPlayerLib/2.15.1
 http://tv1.streamlol.pw:25461/hwhwha/o2kwjwu/1
 
