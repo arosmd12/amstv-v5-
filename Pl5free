@@ -258,7 +258,7 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
 
 
 #EXTINF:-1 group-title="TV NASIONAL" tvg-id="" tvg-logo="http://amstv.shop/icon/indosiar.png", INDOSIAR LIVE3
-https://bf.jllivese.com/live/5004240_hd01.m3u8?txSecret=34e87e8e99ec0ed05e47e72c618f9ad2&txTime=67f90286
+#https://bf.jllivese.com/live/5004240_hd01.m3u8?txSecret=34e87e8e99ec0ed05e47e72c618f9ad2&txTime=67f90286
 
 #EXTINF:0 tvg-id="JTV.Id" tvg-logo="http://amstv.shop/icon/jtv.png" group-title="TV NASIONAL",JTV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
