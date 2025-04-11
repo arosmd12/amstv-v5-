@@ -267,7 +267,7 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
 
 
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="http://amstv.shop/icon/indosiar.png" group-title="TV NASIONAL",INDOSIAR live2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
+##EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #https://bf.jllivese.com/live/5004448_hd01.m3u8?txSecret=00597c9a43472e3c1f77e0be6ba7b33f&txTime=67f8d99f
 https://bf.jllivese.com/live/5004429_hd01.m3u8?txSecret=2beb7ffb5b1fa124f1141a3fd931e8a2&txTime=67f908be
 
