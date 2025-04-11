@@ -261,15 +261,15 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
 #EXTVLCOPT:http-referrer=https://ben.quietlywheat23.shop/
 #https://fhlsport121.fhs36f7.xyz/token-LUApybfFLqeG7DB9yvY6mm3WlJvRhijjbnP4lPdHRWGms7eZHUFdDo4vqhRKW0pJBCeIxTNhkA%3D%3Da/cfall/s2001/v3b/qr1s4o34nUE0pQbiY3EmAmphZ3umqT0ho25y/super/3x_597740.m3u8
 
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="http://amstv.shop/icon/indosiar.png" group-title="TV NASIONAL",INDOSIAR live1
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="http://amstv.shop/icon/indosiar.png" group-title="TV NASIONAL",INDOSIAR live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #https://bf.jllivese.com/live/5004429_hd01.m3u8?txSecret=2beb7ffb5b1fa124f1141a3fd931e8a2&txTime=67f908be
-
+https://bf.jllivese.com/live/322582_hd01.m3u8?txSecret=f9755be64cfc7c823450fb8bef29cf92&txTime=67f90a48
 
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="http://amstv.shop/icon/indosiar.png" group-title="TV NASIONAL",INDOSIAR live2
 ##EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #https://bf.jllivese.com/live/5004448_hd01.m3u8?txSecret=00597c9a43472e3c1f77e0be6ba7b33f&txTime=67f8d99f
-https://bf.jllivese.com/live/5004429_hd01.m3u8?txSecret=2beb7ffb5b1fa124f1141a3fd931e8a2&txTime=67f908be
+#https://bf.jllivese.com/live/5004429_hd01.m3u8?txSecret=2beb7ffb5b1fa124f1141a3fd931e8a2&txTime=67f908be
 
 #EXTINF:0 tvg-id="JTV.Id" tvg-logo="http://amstv.shop/icon/jtv.png" group-title="TV NASIONAL",JTV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
