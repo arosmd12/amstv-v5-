@@ -169,7 +169,6 @@ text/x-generic free_tv_5_0_htdd7u.php ( HTML document, UTF-8 Unicode text, with 
         </div>
     </div>
 
-
     <div id="copyright">
         <div class="wrapper">
             &copy; 2020. <b>RumahRafif.</b> All Rights Reserved.
@@ -260,7 +259,11 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="http://amstv.shop/icon/indosiar.png" group-title="TV NASIONAL",INDOSIAR live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #EXTVLCOPT:http-referrer=https://ben.quietlywheat23.shop/
-https://fhlsport121.fhs36f7.xyz/token-LUApybfFLqeG7DB9yvY6mm3WlJvRhijjbnP4lPdHRWGms7eZHUFdDo4vqhRKW0pJBCeIxTNhkA%3D%3Da/cfall/s2001/v3b/qr1s4o34nUE0pQbiY3EmAmphZ3umqT0ho25y/super/3x_597740.m3u8
+#https://fhlsport121.fhs36f7.xyz/token-LUApybfFLqeG7DB9yvY6mm3WlJvRhijjbnP4lPdHRWGms7eZHUFdDo4vqhRKW0pJBCeIxTNhkA%3D%3Da/cfall/s2001/v3b/qr1s4o34nUE0pQbiY3EmAmphZ3umqT0ho25y/super/3x_597740.m3u8
+
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="http://amstv.shop/icon/indosiar.png" group-title="TV NASIONAL",INDOSIAR live1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
+https://bf.jllivese.com/live/322720_hd01.m3u8?txSecret=a2a8b7cb1a68a4d66bdcb7373e9c607b&txTime=67f8dd03
 
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="http://amstv.shop/icon/indosiar.png" group-title="TV NASIONAL",INDOSIAR live2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
