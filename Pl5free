@@ -250,7 +250,7 @@ https://hgmtv.com:19360/garudatvlivestreaming/576p.m3u8
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://kametv.my.id/sc/rctiplus.m3u8?id=inews
   
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="http://amstv.shop/icon/indosiar.png" group-title="TV NASIONAL",INDOSIAR 
+#EXTINF:-1 tvg-id=".id" tvg-logo="http://amstv.shop/icon/indosiar.png" group-title="TV NASIONAL",INDOSIAR 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5eaddccd893a47ac8b65f9b31963a3ae:881afa67ea57b41c1822d745d67559e6
@@ -263,7 +263,7 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
 
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="http://amstv.shop/icon/indosiar.png" group-title="TV NASIONAL",INDOSIAR live1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
-#https://bf.jllivese.com/live/322720_hd01.m3u8?txSecret=a2a8b7cb1a68a4d66bdcb7373e9c607b&txTime=67f8dd03
+https://bf.jllivese.com/live/5004429_hd01.m3u8?txSecret=2beb7ffb5b1fa124f1141a3fd931e8a2&txTime=67f908be
 
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="http://amstv.shop/icon/indosiar.png" group-title="TV NASIONAL",INDOSIAR live2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
