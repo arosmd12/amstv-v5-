@@ -289,11 +289,8 @@ http://killer.play-gachor.online:80/play/II6XR8FCTEQ43hM3W8cbRjMZg_4LPRYAZxHSwgp
 
 
 #EXTINF:-1 group-title="TV NASIONAL" tvg-logo="http://amstv.shop/icon/mentaritv.png", Mentari TV2
-##KODIPROP:inputstream.adaptive.license_type=clearkey
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#https://myvidio.tvnid.workers.dev/01/stream.m3u8?id=8237&type=hls
-https://dusk.biz.id/video/play.mpd?id=8237
-#https://elitestreamid.xyz/scripts/vidio/dash.php/stream.mpd?id=8237
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://sweet-night-1d1d.worst.workers.dev/?id=8237&type=hls
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4497473c5b978655ce62de7873e04174:6af319f8d82351f8c3b18c9abdfdef4d
