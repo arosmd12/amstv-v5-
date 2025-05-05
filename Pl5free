@@ -234,12 +234,11 @@ https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 #EXTINF:-1 group-title="TV NASIONAL" tvg-id="CNN INDONESIA" tvg-logo="http://amstv.shop/icon/cnn.png",CNN INDONESIA
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1285822120_b384000_sleng.m3u8
 
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=88f6c7cbd793374cb5f12d7e26dcd63b:e82daa7c7bfb03d99327463fdbd37336
-#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/951/49951-SNAPSHOT-m.png" group-title="TV NASIONAL",GTV
-https://dsgtq5sngxkde.cloudfront.net/live/eds/GTV-HD/sa_dash/GTV-HD.mpd
 
+#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/951/49951-SNAPSHOT-m.png" group-title="TV NASIONAL",GTV
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://rcti-plus.triwied-77.workers.dev/play.m3u8?id=gtv
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVX4Xp3dhw4jq0AV8uH5BLFqzLlRDvkl3xNW0ePZxJipse6Q-MrmcGmzNl&s=10" group-title="TV NASIONAL",Garuda TV
@@ -251,14 +250,18 @@ https://hgmtv.com:19360/garudatvlivestreaming/576p.m3u8
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=a31cf5136789514b7e12b9cc99307c84:980e54d671ffc2b2f4cf54e75cae0ac2
 #EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/952/49952-SNAPSHOT-m.png" group-title="TV NASIONAL",INEWS
-https://dsgtq5sngxkde.cloudfront.net/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd
+#https://dsgtq5sngxkde.cloudfront.net/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd
 
 
 
 #EXTINF:0 tvg-id="iNews.Id" tvg-logo="http://amstv.shop/icon/inews.png" group-title="TV NASIONAL",iNewsTV (+)
 #EXTVLCOPT:http-user-agent=android-R+
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
-  
+
+https://rcti-plus.triwied-77.workers.dev/play.m3u8?id=inews
+
+
+
+
 #EXTINF:-1 tvg-id=".id" tvg-logo="http://amstv.shop/icon/indosiar.png" group-title="TV NASIONAL",INDOSIAR 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -326,13 +329,10 @@ https://atemeshield1-voe.sysln.id/live/eds/MOJIOChannel/mpd/MOJIOChannel.mpd
 
 
 
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=828e0aba9825c3546a2831e4c0c36f7f:f85d3dcd38981368ab3da597e97ebdcc
-#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/949/49949-SNAPSHOT-m.png" group-title="TV NASIONAL",MNC TV
-https://dsgtq5sngxkde.cloudfront.net/live/eds/MNCTV-HD/sa_dash/MNCTV-HD.mpd
 
-
+#EXTINF:-1 tvg-logo="http://amstv.my.id/icon/mnc.png" group-title="TV NASIONAL",MNC TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
+http://202.147.193.244/live/eds/MNCTV-HD/sa_dash/MNCTV-HD.mpd
 
 
 #EXTINF:-1group-title="TV NASIONAL"  tvg-logo="http://amstv.shop/icon/nettv.png",NET TV(d)
@@ -350,15 +350,17 @@ https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI" tvg-logo="http://amstv.shop/icon/RCTI.png" group-title="TV NASIONAL",RCTI (V)
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
+https://rcti-plus.triwied-77.workers.dev/play.m3u8?id=rcti
 
+#EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI" tvg-logo="http://amstv.shop/icon/RCTI.png" group-title="TV NASIONAL",RCTI HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+http://202.147.193.244/live/eds/RCTI-DD/sa_dash/RCTI-DD.mpd
 
 #EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI" tvg-logo="http://amstv.shop/icon/RCTI.png" group-title="TV NASIONAL",RCTI (+)
-
 #EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux; Android 15) Media3/1.6.0
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://terabit.web.id/drmkv.php?id=1&type=drm
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd|referrer=https://visionplus.id/
+#https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd|referrer=https://visionplus.id/
 
 
 #EXTINF:-1 group-title="TV NASIONAL" tvg-id="TRANS 7" tvg-logo="http://amstv.shop/icon/trans7.png",TRANS7 D
@@ -691,7 +693,352 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/CitraMuslimHD/mpd/CitraMuslimHD.m
 
 
 
-========== PREMIUM 
+########$l AL-QUR'AN 
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/5rJX0fp/alfatihah.jpg" group-title="Al - Quran",[001] Surah Alfatihah (Pembukaan)
+https://archive.org/download/MurotalMR/001.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/8dnmJ2n/albaqarah.jpg" group-title="Al - Quran",[002] Surah Al-Baqarah (Sapi)
+https://archive.org/download/MurotalMR/002.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/vXm31Zn/alimran.jpg" group-title="Al - Quran",[003] Surah Ali 'Imran (Keluarga Imran)
+https://archive.org/download/MurotalMR/003.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/x8XKg45/annisa.jpg" group-title="Al - Quran",[004] Surah An-Nisaa' (Wanita)
+https://archive.org/download/MurotalMR/004.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/ft2VSPY/almaidah.jpg" group-title="Al - Quran",[005] Surah Al-Maa'idah (Hidangan)
+https://archive.org/download/MurotalMR/005.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/M21c082/alanam.jpg" group-title="Al - Quran",[006] Surah Al-An'aam (Binatang Ternakan)
+https://archive.org/download/MurotalMR/006.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/SVhcXT9/alaraf.jpg" group-title="Al - Quran",[007] Surah Al-A'raaf (Tempat Tertinggi)
+https://archive.org/download/MurotalMR/007.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/12J91Tc/alanfal.jpg" group-title="Al - Quran",[008] Surah Al-Anfaal (Rampasan Perang)
+https://archive.org/download/MurotalMR/008.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/znr4yLp/attaubah.jpg" group-title="Al - Quran",[009] Surah At-Taubah (Pengampunan)
+https://archive.org/download/MurotalMR/009.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/Jpp0pHR/yunus.jpg" group-title="Al - Quran",[010] Surah Yunus (Nabi Yunus a.s.)
+https://archive.org/download/MurotalMR/010.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/DppDt5k/hud.jpg" group-title="Al - Quran",[011] Surah Hud (Nabi Hud a.s.)
+https://archive.org/download/MurotalMR/011.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/HXd7XDh/yusuf.jpg" group-title="Al - Quran",[012] Surah Yusuf (Nabi Yusuf a.s.)
+https://archive.org/download/MurotalMR/012.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/thXd5NB/arraad.jpg" group-title="Al - Quran",[013] Surah Ar-Ra'd (Guruh)
+https://archive.org/download/MurotalMR/013.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/6Ws6qqg/ibrahim.jpg" group-title="Al - Quran",[014] Surah Ibrahim (Nabi Ibrahim a.s.)
+https://archive.org/download/MurotalMR/014.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/LxDc1gQ/alhijr.jpg" group-title="Al - Quran",[015] Surah Al-Hijr (Kawasan Berbatu)
+https://archive.org/download/MurotalMR/015.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/4YtXSfj/annahl.jpg" group-title="Al - Quran",[016] Surah An-Nahl (Lebah)
+https://archive.org/download/MurotalMR/016.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/1JkHM9h/alisra.jpg" group-title="Al - Quran",[017] Surah Al-Israa' (Perjalanan Malam)
+https://archive.org/download/MurotalMR/017.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/5TLPXbS/alkahfi.jpg" group-title="Al - Quran",[018] Surah Al-Kahfi (Gua)
+https://archive.org/download/MurotalMR/018.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/WkqGqzr/maryam.jpg" group-title="Al - Quran",[019] Surah Maryam (Siti Maryam)
+https://archive.org/download/MurotalMR/019.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/mS6Xpd7/taha.jpg" group-title="Al - Quran",[020] Surah Taahaa
+https://archive.org/download/MurotalMR/020.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[021] Surah Al-Anbiyaa' (Para Nabi)
+https://archive.org/download/MurotalMR/021.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[022] Surah Al-Hajj (Haji)
+https://archive.org/download/MurotalMR/022.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[023] Surah Al-Mu'minun (Golongan yang Beriman) 
+https://archive.org/download/MurotalMR/023.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[024] Surah An-Nuur (Cahaya)
+https://archive.org/download/MurotalMR/024.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[025] Surah Al-Furqaan (Pembeza Kebenaran dan Kebatilan)
+https://archive.org/download/MurotalMR/025.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[026] Surah Asy-Syu'araa (Para Penyair)
+https://archive.org/download/MurotalMR/026.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[027] Surah An-Naml (Semut)
+https://archive.org/download/MurotalMR/027.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[028] Surah Al-Qasas (Cerita-cerita)
+https://archive.org/download/MurotalMR/028.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[029] Surah Al-'Ankabut (Labah-labah)
+https://archive.org/download/MurotalMR/029.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[030] Surah Ar-Rum (Bangsa Rom)
+https://archive.org/download/MurotalMR/030.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[031] Surah Luqman (Luqman)
+https://archive.org/download/MurotalMR/031.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[032] Surah As-Sajdah (Sujud)
+https://archive.org/download/MurotalMR/032.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[033] Surah Al-Ahzab (Golongan yang Bersekutu)
+https://archive.org/download/MurotalMR/033.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[034] Surah Saba' (Kaum Saba')
+https://archive.org/download/MurotalMR/034.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[035] Surah Faatir (Pencipta)
+https://archive.org/download/MurotalMR/035.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[036] Surah Yaasin
+https://archive.org/download/MurotalMR/036.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[037] Surah As-Saaffat (Yang Teratur Berbaris)
+https://archive.org/download/MurotalMR/037.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[038] Surah Saad
+https://archive.org/download/MurotalMR/038.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[039] Surah Az-Zumar (Rombongan)
+https://archive.org/download/MurotalMR/039.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[040] Surah Al-Ghafir / Al-Mu'min (Orang yang Beriman)
+https://archive.org/download/MurotalMR/040.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[041] Surah Fussilat (Dijelaskan)
+https://archive.org/download/MurotalMR/041.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[042] Surah Asy-Syuraa (Permesyuaratan)
+https://archive.org/download/MurotalMR/042.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[043] Surah Az-Zukhruf (Perhiasan Emas)
+https://archive.org/download/MurotalMR/043.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[044] Surah Ad-Dukhaan (Kabut / Asap)
+https://archive.org/download/MurotalMR/044.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[045] Surah Al-Jatsiyah (Yang Berlutut)
+https://archive.org/download/MurotalMR/045.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[046] Surah Al-Ahqaaf (Bukit-bukit Pasir)
+https://archive.org/download/MurotalMR/046.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[047] Surah Muhammad (Nabi Muhammad SAW)
+https://archive.org/download/MurotalMR/047.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[048] Surah Al-Fath (Kemenangan)
+https://archive.org/download/MurotalMR/048.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[049] Surah Al-Hujurat (Bilik-bilik)
+https://archive.org/download/MurotalMR/049.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[050] Surah Qaaf
+https://archive.org/download/MurotalMR/050.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[051] Surah Adz-Dzariyaat (Angin yang Menerbangkan)
+https://archive.org/download/MurotalMR/051.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[052] Surah At-Tur (Bukit)
+https://archive.org/download/MurotalMR/052.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[053] Surah An-Najm (Bintang)
+https://archive.org/download/MurotalMR/053.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[054] Surah Al-Qamar (Bulan)
+https://archive.org/download/MurotalMR/054.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[055] Surah Ar-Rahman (Yang Maha Pemurah)
+https://archive.org/download/MurotalMR/055.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[056] Surah Al-Waqi'ah (Peristiwa yang Tidak Dapat Dielakkan) 
+https://archive.org/download/MurotalMR/056.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[057] Surah Al-Hadid (Besi)
+https://archive.org/download/MurotalMR/057.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[058] Surah Al-Mujadilah (Perempuan yang Merayu)
+https://archive.org/download/MurotalMR/058.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[059] Surah Al-Hasyr (Pengusiran)
+https://archive.org/download/MurotalMR/059.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[060] Surah Al-Mumtahanah (Perempuan yang Diuji)
+https://archive.org/download/MurotalMR/060.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[061] Surah As-Saf (Barisan)
+https://archive.org/download/MurotalMR/061.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[062] Surah Al-Jumu'ah (Hari Jumaat)
+https://archive.org/download/MurotalMR/062.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[063] Surah Al-Munafiquun (Golongan Munafik)
+https://archive.org/download/MurotalMR/063.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[064] Surah At-Taghabun (Dinampakkan Kesalahan)
+https://archive.org/download/MurotalMR/064.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[065] Surah At-Talaq (Cerai / Talak)
+https://archive.org/download/MurotalMR/065.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[066] Surah At-Tahrim (Mengharamkan)
+https://archive.org/download/MurotalMR/066.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[067] Surah Al-Mulk (Kerajaan)
+https://archive.org/download/MurotalMR/067.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[068] Surah Al-Qalam (Pena / Kalam)
+https://archive.org/download/MurotalMR/068.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[069] Surah Al-Haaqqah (Keadaan Sebenar / Hari Kiamat)
+https://archive.org/download/MurotalMR/069.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[070] Surah Al-Ma'arij (Tempat-tempat Naik)
+https://archive.org/download/MurotalMR/070.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[071] Surah Nuh (Nabi Nuh a.s.)
+https://archive.org/download/MurotalMR/071.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[072] Surah A-Jin (Jin)
+https://archive.org/download/MurotalMR/072.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[073] Surah Al-Muzammil (Yang Berselimut)
+https://archive.org/download/MurotalMR/073.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[074] Surah Al-Muddathir (Yang Berselubung)
+https://archive.org/download/MurotalMR/074.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[075] Surah Al-Qiyaamah (Hari Kebangkitan / Kiamat)
+https://archive.org/download/MurotalMR/075.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[076] Surah Al-Insaan (Manusia)
+https://archive.org/download/MurotalMR/076.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[077] Surah Al-Mursalat (Malaikat Yang Diutus)
+https://archive.org/download/MurotalMR/077.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[078] Surah An-Naba' (Berita Besar)
+https://archive.org/download/MurotalMR/078.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[079] Surah An-Naazi'aat (Malaikat Yang Mencabut)
+https://archive.org/download/MurotalMR/079.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[080] Surah 'Abasa (Dia Bermasam Muka)
+https://archive.org/download/MurotalMR/080.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[081] Surah At-Takwiir (Menggulung)
+https://archive.org/download/MurotalMR/081.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[082] Surah Al-Infitar (Terpecah & Terbelah)
+https://archive.org/download/MurotalMR/082.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[083] Surah Al-Mutaffifiin (Golongan yang Curang)
+https://archive.org/download/MurotalMR/083.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[084] Surah Al-Insyiqaaq (Terbelah)
+https://archive.org/download/MurotalMR/084.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[085] Surah Al-Buruj (Gugusan Bintang)
+https://archive.org/download/MurotalMR/085.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[086] Surah At-Taariq (Pengunjung Malam)
+https://archive.org/download/MurotalMR/086.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[087] Surah Al-A'laa (Yang Tertinggi)
+https://archive.org/download/MurotalMR/087.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[088] Surah Al-Ghaasyiah (Peristiwa Menggelisahkan/Hari Pembalasan)
+https://archive.org/download/MurotalMR/088.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[089] Surah Al-Fajr (Fajar / Sinar Mentari)
+https://archive.org/download/MurotalMR/089.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[090] Surah Al-Balad (Negeri)
+https://archive.org/download/MurotalMR/090.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[091] Surah Asy-Syams (Matahari)
+https://archive.org/download/MurotalMR/091.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[092] Surah Al-Lail (Malam)
+https://archive.org/download/MurotalMR/092.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[093] Surah Adh-Dhuha (Pagi yang Cemerlang / Matahari Meninggi)
+https://archive.org/download/MurotalMR/093.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[094] Surah Al-Insyirah/An-Nasyrah (Melapangkan)
+https://archive.org/download/MurotalMR/094.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[095] Surah At-Tin (Buah Tin / Buah Ara)
+https://archive.org/download/MurotalMR/095.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[096] Surah Al-'Alaq (Segumpal Darah)
+https://archive.org/download/MurotalMR/096.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[097] Surah Al-Qadr (Kemuliaan)
+https://archive.org/download/MurotalMR/097.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[098] Surah Al-Baiyinah (Bukti yang Nyata)
+https://archive.org/download/MurotalMR/098.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[099] Surah Al-Zalzalah (Kegoncangan)
+https://archive.org/download/MurotalMR/099.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[100] Surah Al-'Aadiyaat (Yang Berlari Kencang)
+https://archive.org/download/MurotalMR/100.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[101] Surah Al-Qari'ah (Hari Yang Hingar Bingar/kiamat)
+https://archive.org/download/MurotalMR/101.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[102] Surah At-Takathur (Bermegah-Megah)
+https://archive.org/download/MurotalMR/102.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[103] Surah Al-'Asr (Masa)
+https://archive.org/download/MurotalMR/103.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[104] Surah Al-Humazah (Pengumpat)
+https://archive.org/download/MurotalMR/104.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[105] Surah Al-Fiil (Gajah)
+https://archive.org/download/MurotalMR/105.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[106] Surah Quraisy (Kaum Quraisy)
+https://archive.org/download/MurotalMR/106.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[107] Surah Al-Ma'un (Barangan Berguna)
+https://archive.org/download/MurotalMR/107.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[108] Surah Al-Kauthar (Sungai Di Syurga)
+https://archive.org/download/MurotalMR/108.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[109] Surah Al-Kafirun (Golongan Kafir)
+https://archive.org/download/MurotalMR/109.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[110] Surah An-Nasr (Pertolongan)
+https://archive.org/download/MurotalMR/110.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[111] Surah Al-Masad / Al-Lahab (Nyalaan Api)
+https://archive.org/download/MurotalMR/111.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[112] Surah Al-Ikhlas (Tulus Ikhlas / Memurnikan Keesaan Allah)
+https://archive.org/download/MurotalMR/112.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[113] Surah Al-Falaq (Waktu Subuh / Dinihari)
+https://archive.org/download/MurotalMR/113.mp3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0czWKcW/alquran.jpg" group-title="Al - Quran",[114] Surah An-Naas (Manusia)
+https://archive.org/download/MurotalMR/114.mp3
+
 
 
 
@@ -726,6 +1073,7 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/CitraMuslimHD/mpd/CitraMuslimHD.m
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 12)
 #http://nonton.site:8080/live/DZqjznfyyn/3Q9O2vucT6/210.ts
 https://nonton.site:8443/XtreamFlixID/w9RLHbWJY4/210
+
 
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fc/HBOHits-ASIA.png" group-title="MOVIE / BIOSKOP", HBO Hits 
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 12)
@@ -974,17 +1322,23 @@ http://op-group1-swiftservehd-1.dens.tv/h/h193/index.m3u8?app_type=web&amp;useri
 #KODIPROP:inputstream.adaptive.license_key=https://lapakking.com/play/sportstars/ss3.php?id=114&type=drm
 ##KODIPROP:inputstream.adaptive.license_key=https://qtv.my.id/kvdrm.php?id=114&type=drm
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
+#https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
+
+#EXTINF:-1 group-title="LIGA BRI-TIMNAS-EVENT" tvg-id="mncsports3.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-v4TeFYINqp_QrBomonTtYsl0gKsO4jjcg&usqp=CAU", LIGA BRI LIVE 🔴
+#EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Linux; Android 9; CPH2083 Build\/PPR1.180610.011) AppleWebKit\/537.36 OTT Navigator/1.7.1.2 (Linux;Android 31; en; ZUPAMNZVUB) ExoPlayerLib/2.15.1
+http://83.142.30.171:8080/live/vip_3klp0es8/wg3piwEs/2706.ts
 
 #EXTINF:-1 group-title="LIGA BRI-TIMNAS-EVENT" tvg-id="mncsports3.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-v4TeFYINqp_QrBomonTtYsl0gKsO4jjcg&usqp=CAU", INDOSIAR LIVE 🔴
-EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#https://nonton.site:8443/XtreamFlixID/w9RLHbWJY4/1845
-https://bf.jabflive.cc/live/322693_hd01.m3u8?txSecret=67fed8d2afb9c951a2db10d62a32646a&txTime=681362ef
-
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://bf.jabflive.cc/live/5004429_hd01.m3u8?txSecret=a04c07b1a03456b0e107878a0c57a41c&txTime=6818a662
 
 #EXTINF:-1 group-title="LIGA BRI-TIMNAS-EVENT" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-v4TeFYINqp_QrBomonTtYsl0gKsO4jjcg&usqp=CAU",LIGA BRI LIVE A
-#EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Linux; Android 9; CPH2083 Build\/PPR1.180610.011) AppleWebKit\/537.36 OTT Navigator/1.7.1.2 (Linux;Android 31; en; ZUPAMNZVUB) ExoPlayerLib/2.15.1
-#https://bf.jabflive.com/live/322666_hd01.m3u8?txSecret=40bd702661ac6f5fd27f69a611e6d14f&txTime=680b478b
+##EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Linux; Android 9; CPH2083 Build\/PPR1.180610.011) AppleWebKit\/537.36 OTT Navigator/1.7.1.2 (Linux;Android 31; en; ZUPAMNZVUB) ExoPlayerLib/2.15.1
+##EXTVLCOPT:http-referrer=https://g.zoomplayer.xyz/
+#EXTVLCOPT:http-referrer=https://ben.quietlywheat23.shop/
+##EXTVLCOPT:http-origin=https://ben.quietlywheat23.shop/
+#https://fhlsport121.fhs36f7.xyz/token-dBQvmrjFKP6G6WYtxPY6yGjWlJrTjSrjayajk%2FdJRDT64rGaHUFdDowvqRVBWEtJBCeIwDdmmvw%3Da/cfall/s2001/v3b/p9q7srsonUE0pQbiY3AaYKEmqwphZ3umqT0ho25y/super/3x_600949.m3u8
+
 
 #### THAPCAM 
 #EXTINF:-1 group-title="LIGA BRI-TIMNAS-EVENT" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-v4TeFYINqp_QrBomonTtYsl0gKsO4jjcg&usqp=CAU",LIGA BRI LIVE A#1
@@ -1002,51 +1356,46 @@ https://bf.jabflive.cc/live/322693_hd01.m3u8?txSecret=67fed8d2afb9c951a2db10d62a
 
 
 
-#EXTM3U
-#EXTINF:-1 group-title="LIGA BRI-TIMNAS-EVENT" tvg-id="mncsports3.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-v4TeFYINqp_QrBomonTtYsl0gKsO4jjcg&usqp=CAU", SS3 A
-#KODIPROP:inputstream.adaptive.license_type=https://multidrm.core.verimatrixcloud.net/widevine
-#KODIPROP:inputstream.adaptive.license_key=https://qtv.my.id/kvdrm.php?id=114&type=drm
-#EXTVLCOPT:http-referrer=https://visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Linux; Android 9; CPH2083 Build\/PPR1.180610.011) AppleWebKit\/537.36
-#https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
-
-
-#EXTINF:-1 tvg-id="Lokal" group-title="LIGA BRI-TIMNAS-EVENT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-v4TeFYINqp_QrBomonTtYsl0gKsO4jjcg&usqp=CAU" ch-number="92",BRI live 3
-#KODIPROP:inputstream.adaptive.stream_headers=user-agent=VidioPlayer/4.0.9-WITH_ADS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6a8b65c83036329e7185b9cd8cbdee29:0eb2beb5633f8e35cafab45af3d21de0
-#https://elitestreamid.xyz/scripts/vidio/dash.php/stream.mpd?id=205
-
-
-
-
 
 
 ######################
 ========================
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/b09FzDb/volyball.webp" group-title="SPORT PERTAMAX",livoly
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://ben.quietlywheat23.shop/
+https://fhlsport121.fhs36f7.xyz/token-IE4pn7mde6KG7mR5lvY6n2iClJuDgCHjOHOokKAdQjShs7eWHUFdDowuqhZLW0tJBCeIxTNhkA%3D%3Da/cfall/s2001/v3b/562o3sn0nUE0pQbiY3AaYKEmqwphZ3umqT0ho25y/super/3x_600779.m3u8
+
+#EXTINF:0 tvg-id="" tvg-name="ID: Moji" tvg-logo="http://killer.play-gachor.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkGk00RVDOOknP8J7Z-2T6eWpp4Z-ZwgsaJhRxBKyE-tM.png" group-title="LIGA BRI-TIMNAS-EVENT",VOLI TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36 
+https://elitestreamid.xyz/scripts/vidio/hls.php/stream.m3u8?id=206
+
+
+
 #EXTINF:-1 xui-id="305" tvg-id="" tvg-name="VOLI TV" tvg-logo="http://killer.play-gachor.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkGk00RVDOOknP8J7Z-2T6eWpp4Z-ZwgsaJhRxBKyE-tM.png" group-title="LIGA BRI-TIMNAS-EVENT",VOLI TV
-#EXTVLCOPT:http-user-agent=NSPlayer/12.00.9651.000
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:mimetype=video/mp2t
-#KODIPROP:inputstream.ffmpegdirect.program_number=350997
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
-http://xtv.ooo:8080/DaxeshMPT/454591/350997
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36 
+#https://elitestreamid.xyz/scripts/vidio/hls.php/stream.m3u8?id=206
+
+
+
+
 
 #EXTINF:-1 xui-id="305" tvg-id="" tvg-name="VOLI TV" tvg-logo="http://killer.play-gachor.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkGk00RVDOOknP8J7Z-2T6eWpp4Z-ZwgsaJhRxBKyE-tM.png" group-title="LIGA BRI-TIMNAS-EVENT",VOLI 2🔴
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
+##EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
 ##EXTVLCOPT:http-referrer=https://ben.quietlywheat23.shop/
-https://bf.jabflive.cc/live/5004432_hd01.m3u8?txSecret=5a83d9c55ff5d090c18cd6681b13ae5e&txTime=6813401c
+https://bf.jabflive.cc/live/5004432_hd01.m3u8?txSecret=6a9427ad346abca7e9abb03fbec576df&txTime=68172e54
+
 
 #EXTINF:-1 xui-id="305" tvg-id="" tvg-name="VOLI TV" tvg-logo="http://killer.play-gachor.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkGk00RVDOOknP8J7Z-2T6eWpp4Z-ZwgsaJhRxBKyE-tM.png" group-title="LIGA BRI-TIMNAS-EVENT",VOLI 2A
-##EXTVLCOPT:http-referrer=https://leahciu5.jbswpowerfulr9m29review.shop
-##https://ben.quietlywheat23.shop/
-#EXTVLCOPT:http-referrer=https://g.zoomplayer.xyz/
+##xoilac
+##EXTVLCOPT:http-referrer=https://xlz.plcdn.xyz
+##rb77
+#EXTVLCOPT:http-referrer=https://ben.quietlywheat23.shop/
+https://fhlsport121.fhs36f7.xyz/token-J0Jzn%2BKdLP%2BGvGR6lfY6mG2DlJuG1ijjbXSsxKlMEWHx4%2BWaHUFdDowvqRVNXU1JBCeIwDdmmvw%3Da/cfall/s2001/v3b/on3or3p1nUE0pQbiY3EmAmphZ3umqT0ho25y/super/3x_600932.m3u8
+##thapcam
+##EXTVLCOPT:http-referrer=https://g.zoomplayer.xyz/
 ##https://leahciu5.jbswpowerfulr9m29review.shop
-
+#https://mv-c767f67a88.fast5cdn.net/a9fc64b8f1aa743f0e7d0047c59f87f9/1746309835295/channel-12/channel-12.m3u8
 
 #EXTINF:-1 xui-id="305" tvg-id="" tvg-name="VOLI TV" tvg-logo="http://killer.play-gachor.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkGk00RVDOOknP8J7Z-2T6eWpp4Z-ZwgsaJhRxBKyE-tM.png" group-title="LIGA BRI-TIMNAS-EVENT",VOLI 2
 ##EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
@@ -1056,13 +1405,15 @@ https://bf.jabflive.cc/live/5004432_hd01.m3u8?txSecret=5a83d9c55ff5d090c18cd6681
 #EXTINF:0  tvg-id="" tvg-name="VOLI TV" tvg-logo="http://killer.play-gachor.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkGk00RVDOOknP8J7Z-2T6eWpp4Z-ZwgsaJhRxBKyE-tM.png" group-title="LIGA BRI-TIMNAS-EVENT",VOLI TV4 🔴
 ##EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 
+#EXTINF:-1 xui-id="305" tvg-id="" tvg-name="VOLI TV" tvg-logo="http://killer.play-gachor.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkGk00RVDOOknP8J7Z-2T6eWpp4Z-ZwgsaJhRxBKyE-tM.png" group-title="LIGA BRI-TIMNAS-EVENT",VOLI TV
+#EXTVLCOPT:http-user-agent=NSPlayer/12.00.9651.000
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=video/mp2t
+#KODIPROP:inputstream.ffmpegdirect.program_number=350997
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#http://xtv.ooo:8080/DaxeshMPT/454591/350997
 
 
-
-
-#EXTINF:-1 xui-id="305" tvg-id="" tvg-name="VOLI TV" tvg-logo="http://killer.play-gachor.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkGk00RVDOOknP8J7Z-2T6eWpp4Z-ZwgsaJhRxBKyE-tM.png" group-title="LIGA BRI-TIMNAS-EVENT",VOLI 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-##EXTVLCOPT:http-referrer=https://ben.quietlywheat23.shop/
 
 
 
@@ -1080,10 +1431,7 @@ https://bf.jabflive.cc/live/5004432_hd01.m3u8?txSecret=5a83d9c55ff5d090c18cd6681
 #https://live-xlvb.nsnd.live/LZp4GMbvFOlxwprdir_C-A/59682603c0192799f9ad86b719cb364d/1745595954/live/_definst_/stream_1_1bda7@momHD/chunklist.m3u8
 
 
-#EXTINF:0  tvg-id="" tvg-name="VOLI TV" tvg-logo="http://killer.play-gachor.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbPPL8rHq5gb8bpu8RxSiKkGk00RVDOOknP8J7Z-2T6eWpp4Z-ZwgsaJhRxBKyE-tM.png" group-title="LIGA BRI-TIMNAS-EVENT",VOLI TV6 🔴
-#EXTVLCOPT:http-referrer=https://g.zoomplayer.xyz/
-#https://hotlivezz179026907.akainu.xyz/7q2Yq6TtV9VuPi9gPRl9cQ/Fv2lucGIbhPi2caWYvF5Lg/1745005810962/live/may21/chunklist.m3u8
-#https://live-xlvb.nsnd.live/vil_xk70wfYGdjKLg-bL_g/205501ba1448ae306a52cba7683e6a5f/1745069730/live/_definst_/stream_1_1bda7@cunHD/chunklist.m3u8
+
 
 ######$ #########
 
@@ -1116,35 +1464,12 @@ https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd5/smil:dubaisportshd5.smil/maste
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf0pvi62jha0ON7goXOwplD9w5d8fOreUzbCCM_q_Wl7bb24BqWnl-7H1l&s=10" group-title="LIGA BRI-TIMNAS-EVENT", AVC VOLI 2
 #EXTVLCOPT:http-referrer=https://ben.quietlywheat23.shop/
 #https://fhlsport121.fhs36f7.xyz/token-d0Uon7KWePaG7jYty%2FY6kD%2FSlMDSgizjPiaoz6JOFGL65biWHUFdDo8qqhBOWUVJBCeIwDdmmvw%3Da/cfall/s2001/v3b/8q7q3492nUE0pQbiY3EmAmphZ3umqT0ho25y/super/3x_599792.m3u8
-#https://fhlsport121.fhs36f7.xyz/token-Jkd9yLbBfPeGu2F8kfY6nzqAlMCHhyHjPXf7xqEbRDj64OLPHUFdDo8qqhNJVUxJBCeIxTNhkA%3D%3Da/cfall/s2001/v3b/8q7q3492nUE0pQbiY3EmAmphZ3umqT0ho25y/super/3x_599792.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf0pvi62jha0ON7goXOwplD9w5d8fOreUzbCCM_q_Wl7bb24BqWnl-7H1l&s=10" group-title="LIGA BRI-TIMNAS-EVENT", AVC VOLI 2
 #http://exm3u.extraott.com:900/live/2249871453/1991220000/77807.m3u8
 
 ###################
-
-
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL2lADEnm_m9WqEEZN0zOZWyrFaAq3wjST0A&s" group-title="LIGA BRI-TIMNAS-EVENT",TIMMAS LIVE 1
-#EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Linux; Android 9; CPH2083 Build\/PPR1.180610.011) AppleWebKit\/537.36 OTT Navigator/1.7.1.2 (Linux;Android 31; en; ZUPAMNZVUB) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=http://script.newfamilytv.my.id/sc/vision/drm.php?id=113
-#https://pizztv.qtv.web.id/cdn-vision/play.mpd?id=113
-
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL2lADEnm_m9WqEEZN0zOZWyrFaAq3wjST0A&s" group-title="LIGA BRI-TIMNAS-EVENT",TIMAS LIVE 2
-#EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Linux; Android 9; CPH2083 Build\/PPR1.180610.011) AppleWebKit\/537.36 OTT Navigator/1.7.1.2 (Linux;Android 31; en; ZUPAMNZVUB) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=http://script.newfamilytv.my.id/sc/vision/drm.php?id=112
-#https://pizztv.qtv.web.id/cdn-vision/play.mpd?id=112
-
-
-
-
-
-
 
 
 
@@ -1162,7 +1487,7 @@ https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd5/smil:dubaisportshd5.smil/maste
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://tvkitastream.my.id/rctiplus/drm.php/widevine?id=113
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
+#https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
 
 
 ====================================
@@ -1184,7 +1509,7 @@ https://dokko1new.newkso.ru/dokko1/premium810/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKTOhzB09t_8FSxSZjusVyE88vK4RzBg4KNpOgwa6TQMAIxMn8qk17tGs5&s=10" group-title="LIGA BRI-TIMNAS-EVENT", BADMINTON 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://v4-a0504dae9c72cdb02b00ddedf6df4973.livehwc3.cn/pullhw.zhaoyangyang.cn/live/8787228_lud.m3u8?edge_slice=true&sub_m3u8=true&auth_info=ZAmLnRkP4wGRSpmKwkJ9VMZlUhFshRzXrBIkOaYgWNGeXi%2BLz32IccrRUlrQ6nzL.637250673969436f314d714f456d3232&user_session_id=fdcd23378dc8fa0a6db6b4381ec4a939
+#https://v4-a0504dae9c72cdb02b00ddedf6df4973.livehwc3.cn/pullhw.zhaoyangyang.cn/live/8787228_lud.m3u8?edge_slice=true&sub_m3u8=true&auth_info=ZAmLnRkP4wGRSpmKwkJ9VMZlUhFshRzXrBIkOaYgWNGeXi%2BLz32IccrRUlrQ6nzL.637250673969436f314d714f456d3232&user_session_id=fdcd23378dc8fa0a6db6b4381ec4a939
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKTOhzB09t_8FSxSZjusVyE88vK4RzBg4KNpOgwa6TQMAIxMn8qk17tGs5&s=10" group-title="LIGA BRI-TIMNAS-EVENT", BADMINTON 2
@@ -1193,13 +1518,20 @@ https://hotlivezz179026907.akainu.xyz/qdwx6QCMpAVYDrrQaooj8g/Fv2lucGIbhPi2caWYvF
 
 https://hotlivezz179026907.akainu.xyz/Il-iluS0kiiUu-npPavkIw/Fv2lucGIbhPi2caWYvF5Lg/1745999403001/live/may25/chunklist.m3u8
 
-##EXTVLCOPT:http-referrer=https://ben.quietlywheat23.shop/
-#https://fhlsport121.fhs36f7.xyz/token-J0JyybPFK6SG6TQgxfY6zG2LlMCGgH3janP8lPNGFmT6suWaHUFdDo8lpBdNXUpJBCeIxDdolvY%3Da/cfall/s2001/v3b/569pn305nUE0pQbiY3AaYKEmqwphZ3umqT0ho25y/super/3x_600125.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKTOhzB09t_8FSxSZjusVyE88vK4RzBg4KNpOgwa6TQMAIxMn8qk17tGs5&s=10" group-title="LIGA BRI-TIMNAS-EVENT", BADMINTON 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://xlz.plcdn.xyz
+##EXTVLCOPT:http-referrer=https://thelookoutedinburgh.co/
+
+##https://ben.quietlywheat23.shop/
+#https://live3.procdnlive.com/livecdn/channel111.m3u8?auth_key=3000001746248450-0-0-aeb50e9b05676753ac75da0c68565b0c
 
 
 #### thap cam
-#EXTVLCOPT:http-referrer=https://g.zoomplayer.xyz/
-#https://hotlivezz179026907.akainu.xyz/qdwx6QCMpAVYDrrQaooj8g/Fv2lucGIbhPi2caWYvF5Lg/1745999403000/live/may24/chunklist.m3u8
+##EXTVLCOPT:http-referrer=https://g.zoomplayer.xyz/
+
 
 #####$#$$$$$$###$#######
 
@@ -1450,7 +1782,7 @@ https://aivottlinear-a.akamaihd.net/OTTE/DUB/live/dash/enc/wdxmrxkd70/out/v1/3b9
 
 #EXTINF:0 tvg-id="" tvg-name="INFO" tvg-logo="http://amstv.my.id/icon/seri_a.png" group-title="SERI A/LALIGA/BUNDES",SERIE A#4
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
-https://bf.shandongjnkt.com/live/322580_hd01.m3u8?txSecret=ec5e63810a082879acdd9d2b59db6387&txTime=67cdeec4
+#https://bf.shandongjnkt.com/live/322580_hd01.m3u8?txSecret=ec5e63810a082879acdd9d2b59db6387&txTime=67cdeec4
 ================================
 
 
@@ -7303,5 +7635,3 @@ https://ddy6new.newkso.ru/ddy6/premium98/mono.m3u8
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 
  
-
-
